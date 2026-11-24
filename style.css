@@ -4,3 +4,21 @@
 
 /* Keep feature illustrations clear of the headline at narrow widths. */
 @media(max-width:700px){.feature:not(.history) .mini-phone{top:60px}}
+
+/* Full-bleed page, with readable content widths inside each section. */
+body{padding:0;background:#fff}.page{max-width:none;border-radius:0;margin:0;width:100%}
+header{max-width:1420px;margin:auto}.section{max-width:1280px;margin-left:auto;margin-right:auto;width:calc(100% - 140px)}
+.stories{margin-left:0;margin-right:0;padding-left:max(70px,calc((100vw - 1280px)/2));padding-right:max(70px,calc((100vw - 1280px)/2))}
+.actions{align-items:flex-start;gap:22px}.actions>.pill{min-height:50px}.store-badge img{display:block;width:150px;height:50px}.store-badge small{display:block;font-size:10px;color:#626260;margin-top:8px}
+/* Native app composition, scaled from its 390pt iPhone layout. */
+.native-screen{padding:0;background:#f2f2f0;font-family:-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+.native-screen .status{padding:17px 22px 0;margin-bottom:21px;font-size:10px}
+.native-brand{height:35px;display:flex;align-items:center;padding:0 14px;gap:5px;font-size:11px;font-weight:600}
+.native-brand img{width:17px;height:17px;object-fit:contain}.native-brand>span{margin-left:auto;width:17px;height:17px}
+.native-input{margin:8px 12px 12px;border:1px solid #82827e;background:#fafaf9;border-radius:9px;height:35px;display:flex;align-items:center;gap:8px;padding:0 9px;font-size:12px;color:#626260}.native-input b{font-size:21px;color:#c82333;font-weight:300}
+.native-day{border-bottom:1px solid #d7d7d3}.native-day.expanded{background:#fafaf9}.native-day-heading{display:flex;align-items:baseline;gap:6px;padding:11px 15px;white-space:nowrap}.native-day-heading strong{font-family:'Helvetica Neue',Arial,sans-serif;font-stretch:condensed;font-size:22px;letter-spacing:-1px;line-height:1.2;font-weight:800;transform:scaleX(.82);transform-origin:left;margin-right:-12px}.native-day-heading small{font-size:8px;color:#626260}.native-day-heading em{margin-left:auto;font-size:9px;font-style:normal;color:#626260}
+.native-tasks{padding:0 11px 12px}.native-task{display:flex;align-items:flex-start;gap:10px;min-height:35px;padding:7px 5px;font-size:12px}.native-task i{width:13px;height:13px;flex-shrink:0;border:1px solid #82827e;border-radius:3px;font-style:normal;display:grid;place-items:center;line-height:1;font-size:12px;margin-top:1px}.native-task>div{flex:1}.native-task.done i{background:#fb3945;border-color:#fb3945;color:#fff}.native-task.done span{text-decoration:line-through;text-decoration-color:#fb3945;color:#626260}.native-task.past{color:#626260}.native-task.past i{background:#92928d;border:0;color:#f2f2f0}.native-task small{display:block;font-size:8px;margin-top:3px}.native-task b{font-size:11px;font-weight:400}.native-week{height:calc(100% - 137px);overflow:hidden}.native-screen .home-bar{z-index:2}
+@media(max-width:1050px){body{padding:0}.section{width:calc(100% - 80px)}.stories{padding-left:40px;padding-right:40px}}
+@media(max-width:700px){body{padding:0}.page{border-radius:0}.section{width:calc(100% - 50px)}.stories{padding-left:25px;padding-right:25px}.actions{gap:14px}.actions>.pill{min-height:44px}.store-badge img{width:132px;height:44px}.store-badge small{font-size:8px}}
+
+.native-week{height:calc(100% - 164px)}
