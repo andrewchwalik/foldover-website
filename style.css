@@ -22,3 +22,5 @@ header{max-width:1420px;margin:auto}.section{max-width:1280px;margin-left:auto;m
 @media(max-width:700px){body{padding:0}.page{border-radius:0}.section{width:calc(100% - 50px)}.stories{padding-left:25px;padding-right:25px}.actions{gap:14px}.actions>.pill{min-height:44px}.store-badge img{width:132px;height:44px}.store-badge small{font-size:8px}}
 
 .native-week{height:calc(100% - 164px)}
+
+.actions{flex-wrap:wrap}.mac-release{padding:0 0 90px}.mac-release p{max-width:650px;margin:18px 0}.mac-release .release-status{font-size:13px}.mac-download{min-width:158px}
